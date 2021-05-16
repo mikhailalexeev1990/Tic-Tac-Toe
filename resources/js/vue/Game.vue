@@ -9,9 +9,9 @@
 			</div>
 			<div class="game-container" v-for="(field, i) in fields">
 				<div @click="choseField({
-                            'raw': i,
-                            'rawField': j,
-                        })" class="game-raw"
+                            'row': i,
+                            'rowField': j,
+                        })" class="game-row"
 				     v-for="(item, j) in field"
 				>
 					{{drawPlayerField(item.player)}}
@@ -68,8 +68,8 @@
 					return true;
 				}
 
-				let {raw, rawField} = {...position};
-				let field = this.fields[raw][rawField];
+				let {row, rowField} = {...position};
+				let field = this.fields[row][rowField];
 
 				if (!field.selected) {
 					field.selected = true;
@@ -85,8 +85,8 @@
 				if (!positions.length) {
 					return true;
 				}
-				let [raw, rawField] = [...positions[Math.floor(Math.random() * positions.length)]];
-				let field = this.fields[raw][rawField];
+				let [row, rowField] = [...positions[Math.floor(Math.random() * positions.length)]];
+				let field = this.fields[row][rowField];
 				field.selected = true;
 				field.player = 2;
 			},

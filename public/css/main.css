@@ -11730,7 +11730,7 @@ fieldset:disabled .btn {
   display: flex;
 }
 
-.game-raw {
+.game-row {
   display: flex;
   align-items: center;
   justify-content: center;

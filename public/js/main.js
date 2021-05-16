@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\Tests\TicTacToe\resources\js\main.js */"./resources/js/main.js");
-module.exports = __webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\Tests\TicTacToe\resources\sass\main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\TEST\Tic-Tac-Toe\resources\js\main.js */"./resources/js/main.js");
+module.exports = __webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\TEST\Tic-Tac-Toe\resources\sass\main.scss */"./resources/sass/main.scss");
 
 
 /***/ })

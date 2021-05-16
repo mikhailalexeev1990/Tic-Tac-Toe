@@ -171,10 +171,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }
 
       var _position = _objectSpread({}, position),
-          raw = _position.raw,
-          rawField = _position.rawField;
+          row = _position.row,
+          rowField = _position.rowField;
 
-      var field = this.fields[raw][rawField];
+      var field = this.fields[row][rowField];
 
       if (!field.selected) {
         field.selected = true;
@@ -195,10 +195,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }
 
       var _ref = _toConsumableArray(positions[Math.floor(Math.random() * positions.length)]),
-          raw = _ref[0],
-          rawField = _ref[1];
+          row = _ref[0],
+          rowField = _ref[1];
 
-      var field = this.fields[raw][rawField];
+      var field = this.fields[row][rowField];
       field.selected = true;
       field.player = 2;
     },
@@ -376,21 +376,21 @@ var render = function() {
               return _c(
                 "div",
                 {
-                  staticClass: "game-raw",
+                  staticClass: "game-row",
                   on: {
                     click: function($event) {
                       return _vm.choseField({
-                        raw: i,
-                        rawField: j
+                        row: i,
+                        rowField: j
                       })
                     }
                   }
                 },
                 [
                   _vm._v(
-                    "\n\t\t\t\t\t" +
+                    "\r\n\t\t\t\t\t" +
                       _vm._s(_vm.drawPlayerField(item.player)) +
-                      "\n\t\t\t\t"
+                      "\r\n\t\t\t\t"
                   )
                 ]
               )
@@ -12988,7 +12988,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\Tests\TicTacToe\resources\js\vue\app.js */"./resources/js/vue/app.js");
+module.exports = __webpack_require__(/*! C:\Users\michael_and_tanya\PhpstormProjects\TEST\Tic-Tac-Toe\resources\js\vue\app.js */"./resources/js/vue/app.js");
 
 
 /***/ })

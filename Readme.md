@@ -1,6 +1,6 @@
 <h1>Tic Tac Toe</h1>
 
-<h2>Example: <a href="https://codesandbox.io/s/tic-tac-toe-fvzpc?file=/public/index.html">CodeSandbox</a></h2>
+<h2>Example: <a href="https://codesandbox.io/s/tic-tac-toe-fvzpc?file=/public/index.html" target="_blank">CodeSandbox</a></h2>
 
 **install**
 - Compiled files in the folder - public (css/js)
